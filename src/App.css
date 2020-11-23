@@ -12,10 +12,11 @@ body{
   text-transform: capitalize;
 }
 .navbar a:hover{
-  background-color: blueviolet;
+  color: white !important;
+  border-bottom:2px solid blueviolet;
 }
 .nav_active{
-  background: blueviolet;
+  border-bottom:2px solid blueviolet;
 }
 .btn-get-started{
   color: white;
@@ -30,4 +31,32 @@ body{
 }
 .brand-name{
   color: blueviolet;
+}
+.card{
+  border-radius: 0;
+  background-color:whitesmoke;
+}
+.card-img-top{
+  height: 160pt !important;
+}
+.card-body{
+  height: 40%;
+}
+.btn-primary{
+  background: blueviolet;
+  border: none;
+}
+.btn-primary:hover{
+  background:blueviolet;
+  opacity: 0.9;
+}
+.contact{
+  background: white;
+}
+.form{
+   background: white;
+}
+.footer{
+  background: blueviolet;
+  color:white;
 }

@@ -7,8 +7,6 @@ const Navbar = () =>{
         <div className='nav bg'>
             <div className="row">
                 <div className="col-12 mx-auto">
-
-                
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
     <a className="navbar-brand" href="/">TechClass</a>
